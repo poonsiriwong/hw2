@@ -1,0 +1,37 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+	var topH = 120;
+	var middleH = 320;
+	var bottomH = 360;
+	var leftV = 80;
+	var rightV = 370;
+
+  background(200, 187, 178);
+	noStroke();
+
+	fill(133, 123, 131); // Grey
+	rect (30, 30, 100, mouseX);
+
+	fill(185, 136, 41); // Yellow
+	rect (130, 90, 80, mouseX);
+	
+	fill(185, 136, 41); // Yellow
+	rect (mouseX - 100, 220, 90, mouseX);
+	
+	fill(164, 133, 139); // Pink
+	rect (250, 50, 100, mouseX);
+
+	fill(164, 133, 139); // Pink
+	rect (mouseX, 200, 80, mouseX);
+	
+	fill(133, 123, 131); // Grey
+	rect (50, 290, 90, mouseX);
+	
+	fill(133, 123, 131); // Grey
+	rect (260, 260, 70, mouseX);
+
+
+}
